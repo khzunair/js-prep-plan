@@ -1,3 +1,60 @@
+// 🔸 Problem 1: Find Maximum in an Array
+// Description:
+// This function iterates through a number array and finds the largest value.
+function findMaximumOfArray(arr) {
+    var maximum = arr[0]; // Start by assuming the first element is the max
+    for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
+        var item = arr_1[_i];
+        if (item > maximum) {
+            maximum = item; // Update max if a larger number is found
+        }
+    }
+    return maximum;
+}
+// Test Case
+var arraytest = [1, 2, 3, 45, 21, 12, -2];
+console.log("🔹 Maximum in Array:", findMaximumOfArray(arraytest)); // Output: 45
+// 🔸 Problem 2: Reverse a String
+// Description:
+// Reverses a given string using split, reverse, and join string methods.
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+// Test Case
+console.log("🔹 Reversed String:", reverseString("zunair")); // Output: "rianuz"
+/*
+ 🔸 Problem 3: First Non-Repeating Character
+
+ Description:
+ Given a string, return the first character that doesn't repeat.
+ Example:
+   "aabbccddeeffg" → 'g'
+   "aabbcc" → '_' (underscore means no unique character found)
+*/
+function firstUniqueChar(str) {
+    var freq = {};
+    // First pass: Count frequency of each character
+    for (var _i = 0, str_1 = str; _i < str_1.length; _i++) {
+        var char = str_1[_i];
+        if (freq[char] !== undefined) {
+            freq[char] += 1;
+        }
+        else {
+            freq[char] = 1;
+        }
+    }
+    console.log("🔹 Character Frequency Map:", freq);
+    // Second pass: Find first character with frequency 1
+    for (var _a = 0, str_2 = str; _a < str_2.length; _a++) {
+        var char = str_2[_a];
+        if (freq[char] === 1)
+            return char;
+    }
+    return "_"; // If no unique character found
+}
+// Test Cases
+console.log("🔹 First Unique Character:", firstUniqueChar("aabbccddeeffg")); // Output: g
+console.log("🔹 First Unique Character:", firstUniqueChar("aabbcc")); // Output: _
 // let fruits: string[] = ["apple", "banana", "orange"];
 // let scores: number[] = [85, 90, 78];
 // console.log(fruits[0]); // "apple"
@@ -87,47 +144,3 @@
 // }
 // console.log(reverseString(test))
 // First Non-Repeating Character
-// Problem 1: Find Maximum in Array
-// Input: [1, 5, 3, 9, 2]
-// Output: 9
-function findMaximumOfArray(arr) {
-    var maximum = arr[0];
-    for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
-        var item = arr_1[_i];
-        if (item > maximum) {
-            maximum = item;
-        }
-    }
-    return maximum;
-}
-var arraytest = [1, 2, 3, 45, 21, 12, -2];
-console.log(findMaximumOfArray(arraytest));
-// 🔸 Problem 2: Reverse a String
-// Input: "zunair"
-// Output: "rianuz"
-function reverseString(str) {
-    return str.split('').reverse().join('');
-}
-console.log(reverseString("zunair"));
-// 🔸 Problem 3: First Non-Repeating Character
-function firstUniqueChar(str) {
-    var freq = {};
-    for (var _i = 0, str_1 = str; _i < str_1.length; _i++) {
-        var char = str_1[_i];
-        if (freq[char] !== undefined) {
-            freq[char] += 1;
-        }
-        else {
-            freq[char] = 1;
-        }
-    }
-    console.log(freq); // Debugging line to see frequency map
-    for (var _a = 0, str_2 = str; _a < str_2.length; _a++) {
-        var char = str_2[_a];
-        if (freq[char] === 1)
-            return char;
-    }
-    return "_"; // if no unique character found
-}
-console.log(firstUniqueChar("aabbccddeeffg")); // Output: g
-console.log(firstUniqueChar("aabbcc")); // Output: _
