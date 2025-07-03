@@ -9,14 +9,14 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 
 📦/
 ├── 📂 day1
-│ ├── day1.ts // TypeScript version
-│ └── day1.js // Transpiled JavaScript version
+│ ├── day1.ts // TypeScript version (source code)
+│ └── day1.js // Transpiled JavaScript version (compiled)
 ├── 📂 day2
 │ ├── day2.ts
 │ └── day2.js
-| ...
-├── README.md 
-
+├── tsconfig.json // TypeScript compiler config
+├── package.json // Project dependencies and scripts
+├── README.md // You're here!
 
 
 ---
@@ -44,18 +44,22 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 
 ## 🛠️ How to Run the Code
 
-### ▶️ Online (no setup needed)
-- Use [Programiz TypeScript Compiler](https://www.programiz.com/typescript/online-compiler)
-- Copy the content from any `.ts` file and paste it
+### ▶️ Online (No Setup Needed)
 
-### 💻 Locally via VS Code
-> Make sure you have Node.js and TypeScript installed
+- Visit: [Programiz TypeScript Compiler](https://www.programiz.com/typescript/online-compiler)
+- Copy the contents from any `.ts` file and paste it there
 
-1. **Compile TypeScript to JavaScript**
+---
+
+### 💻 Locally via VS Code (Recommended)
+
+> Make sure Node.js and TypeScript are installed globally.
+
+#### 1. Compile TypeScript to JavaScript
+
 ```bash
 tsc day1/day1.ts
-
-2. **Run with Node.js**
-```bash
 node day1/day1.js
+
+
 
