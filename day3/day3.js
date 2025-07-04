@@ -127,3 +127,17 @@ function countVowels(str) {
 console.log(countVowels("Zunair")); // 3
 console.log(countVowels("HELLO")); // 2
 console.log(countVowels("bcdfg")); // 0
+// Input: "The quick brown fox jumps over the lazy dog"
+// Output: "jumps"
+function lengthsInSentence(sentence) {
+    var tst = sentence.split(" ");
+    var longestWord = " ";
+    for (var _i = 0, tst_1 = tst; _i < tst_1.length; _i++) {
+        var word = tst_1[_i];
+        if (word.length >= longestWord.length) {
+            longestWord = word;
+        }
+    }
+    return longestWord;
+}
+console.log(lengthsInSentence("The quick brown fox jumps over the lazy dog"));

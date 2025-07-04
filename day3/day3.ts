@@ -167,3 +167,23 @@ function countVowels(str: string): number {
 console.log(countVowels("Zunair"));   // 3
 console.log(countVowels("HELLO"));    // 2
 console.log(countVowels("bcdfg"));    // 0
+
+
+
+// Input: "The quick brown fox jumps over the lazy dog"
+// Output: "jumps"
+
+function lengthsInSentence(sentence: string): string {
+    let tst: string[] = sentence.split(" ");
+        let longestWord: string = " ";
+    for(let word of tst){
+        if(word.length >= longestWord.length){
+            longestWord = word; 
+        }
+    }
+    
+    return longestWord; 
+    
+}
+
+console.log(lengthsInSentence("The quick brown fox jumps over the lazy dog"))
