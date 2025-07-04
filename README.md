@@ -6,17 +6,20 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 ---
 
 ## 📁 Folder Structure
-📦/ 
-├── 📂 day1
-│ ├── day1.ts // TypeScript version (source code)
-│ └── day1.js // Transpiled JavaScript version (compiled)
-├── 📂 day2
-│ ├── day2.ts
-│ └── day2.js
-├── tsconfig.json // TypeScript compiler config
-├── package.json // Project dependencies and scripts
-├── README.md // You're here!
 
+📦/  
+├── 📂 day1  
+│ ├── day1.ts // TypeScript version (source code)  
+│ └── day1.js // Transpiled JavaScript version (compiled)  
+├── 📂 day2  
+│ ├── day2.ts  
+│ └── day2.js  
+├── 📂 day3  
+│ ├── day3.ts  
+│ └── day3.js  
+├── tsconfig.json  
+├── package.json  
+└── README.md  
 
 ---
 
@@ -37,7 +40,16 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 | ✅ Reverse Array In-place | Swaps elements using two-pointer technique |
 | ✅ Is Palindrome | Checks if a string reads the same backward |
 | ✅ Two Sum (Sorted Array) | Finds indices of two numbers that sum to a target |
-| 🟡 Move Zeroes | Moves all 0s to the end while preserving order |
+| ✅ Move Zeroes | Moves all 0s to the end while preserving order |
+
+### 📅 Day 3: Maps, Strings & Frequency Logic
+
+| Problem | Description |
+|--------|-------------|
+| ✅ Character Frequency Counter | Returns count of each character in a string |
+| ✅ Are Anagrams? | Compares character frequency maps |
+| ✅ Count Vowels | Counts all vowels in a string |
+| 🟡 (Optional) Longest Word in Sentence | Bonus word-processing practice |
 
 ---
 
@@ -45,20 +57,14 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 
 ### ▶️ Online (No Setup Needed)
 
-- Visit: [Programiz TypeScript Compiler](https://www.programiz.com/typescript/online-compiler)
-- Copy the contents from any `.ts` file and paste it there
+Use: [Programiz TypeScript Compiler](https://www.programiz.com/typescript/online-compiler)  
+Paste contents of `.ts` files and run.
 
 ---
 
-### 💻 Locally via VS Code (Recommended)
+### 💻 Run Locally (VS Code Recommended)
 
-> Make sure Node.js and TypeScript are installed globally.
-
-#### 1. Compile TypeScript to JavaScript
-
+1. Compile the TypeScript:
 ```bash
 tsc day1/day1.ts
 node day1/day1.js
-
-
-
