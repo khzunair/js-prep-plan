@@ -1,0 +1,19 @@
+{
+  "name": "ts-prep-plan",
+  "version": "1.0.0",
+  "description": "TypeScript Competitive Programming Practice with Performance Tracking",
+  "main": "performance-cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node performance-cli.js",
+    "test": "node -e \"require('./performance-cli.js'); runTests()\"",
+    "dashboard": "node -e \"require('./performance-cli.js'); dashboard()\""
+  },
+  "keywords": ["typescript", "competitive-programming", "performance-tracking"],
+  "author": "Performance Tracker",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.9.0"
+  }
+}
