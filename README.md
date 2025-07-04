@@ -6,7 +6,7 @@ Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learni
 ---
 
 ## 📁 Folder Structure
-📦/
+📦/ 
 ├── 📂 day1
 │ ├── day1.ts // TypeScript version (source code)
 │ └── day1.js // Transpiled JavaScript version (compiled)
