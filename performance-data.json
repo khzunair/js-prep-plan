@@ -131,6 +131,39 @@
       "passed": true,
       "attempts": 1,
       "timestamp": "2025-07-04T18:56:02.808Z"
+    },
+    {
+      "problemId": "day3-char-frequency",
+      "day": 3,
+      "problemName": "Character Frequency Counter",
+      "startTime": 1751655475639,
+      "endTime": 1751655475639,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.639Z"
+    },
+    {
+      "problemId": "day3-anagrams",
+      "day": 3,
+      "problemName": "Are Anagrams",
+      "startTime": 1751655475741,
+      "endTime": 1751655475742,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.742Z"
+    },
+    {
+      "problemId": "day3-count-vowels",
+      "day": 3,
+      "problemName": "Count Vowels",
+      "startTime": 1751655475843,
+      "endTime": 1751655475843,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.843Z"
     }
   ],
   "dayStats": [
@@ -152,11 +185,11 @@
     },
     {
       "day": 3,
-      "totalProblems": 4,
-      "solvedProblems": 3,
-      "averageTime": 0.75,
-      "successRate": 0.75,
-      "totalTime": 3
+      "totalProblems": 7,
+      "solvedProblems": 6,
+      "averageTime": 0.5714285714285714,
+      "successRate": 0.8571428571428571,
+      "totalTime": 4
     }
   ],
   "goals": {
@@ -165,11 +198,11 @@
     "dailyProblemGoal": 3
   },
   "overallStats": {
-    "totalProblems": 12,
-    "totalSolved": 11,
-    "averageTime": 0.6666666666666666,
+    "totalProblems": 15,
+    "totalSolved": 14,
+    "averageTime": 0.6,
     "bestTime": 0,
     "worstTime": 1,
-    "improvementTrend": 0.4
+    "improvementTrend": 0.19999999999999996
   }
 }

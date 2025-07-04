@@ -291,7 +291,18 @@ export function createDay3TestSuite(): ProblemSuite[] {
                 const freq1 = getFreq(str1);
                 const freq2 = getFreq(str2);
                 
-                return JSON.stringify(freq1) === JSON.stringify(freq2);
+                const keys1 = Object.keys(freq1).sort();
+                const keys2 = Object.keys(freq2).sort();
+                
+                if (keys1.length !== keys2.length) return false;
+                
+                for (let i = 0; i < keys1.length; i++) {
+                    if (keys1[i] !== keys2[i] || freq1[keys1[i]] !== freq2[keys2[i]]) {
+                        return false;
+                    }
+                }
+                
+                return true;
             },
             testCases: [
                 { input: ['listen', 'silent'], expected: true, description: 'Classic anagram' },
