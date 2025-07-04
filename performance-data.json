@@ -1,0 +1,208 @@
+{
+  "results": [
+    {
+      "problemId": "day1-max-array",
+      "day": 1,
+      "problemName": "Find Maximum in Array",
+      "startTime": 1751655346435,
+      "endTime": 1751655346436,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:55:46.436Z"
+    },
+    {
+      "problemId": "day2-palindrome",
+      "day": 2,
+      "problemName": "Is Palindrome",
+      "startTime": 1751655346537,
+      "endTime": 1751655346538,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:55:46.538Z"
+    },
+    {
+      "problemId": "day3-char-frequency",
+      "day": 3,
+      "problemName": "Character Frequency Counter",
+      "startTime": 1751655346637,
+      "endTime": 1751655346638,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:55:46.638Z"
+    },
+    {
+      "problemId": "day1-max-array",
+      "day": 1,
+      "problemName": "Find Maximum in Array",
+      "startTime": 1751655361995,
+      "endTime": 1751655361995,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:01.996Z"
+    },
+    {
+      "problemId": "day1-reverse-string",
+      "day": 1,
+      "problemName": "Reverse String",
+      "startTime": 1751655362097,
+      "endTime": 1751655362098,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.098Z"
+    },
+    {
+      "problemId": "day1-first-unique",
+      "day": 1,
+      "problemName": "First Unique Character",
+      "startTime": 1751655362199,
+      "endTime": 1751655362200,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.200Z"
+    },
+    {
+      "problemId": "day2-reverse-array",
+      "day": 2,
+      "problemName": "Reverse Array In-Place",
+      "startTime": 1751655362300,
+      "endTime": 1751655362301,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.301Z"
+    },
+    {
+      "problemId": "day2-palindrome",
+      "day": 2,
+      "problemName": "Is Palindrome",
+      "startTime": 1751655362402,
+      "endTime": 1751655362402,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.402Z"
+    },
+    {
+      "problemId": "day2-two-sum",
+      "day": 2,
+      "problemName": "Two Sum (Sorted Array)",
+      "startTime": 1751655362503,
+      "endTime": 1751655362503,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.503Z"
+    },
+    {
+      "problemId": "day3-char-frequency",
+      "day": 3,
+      "problemName": "Character Frequency Counter",
+      "startTime": 1751655362604,
+      "endTime": 1751655362605,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.605Z"
+    },
+    {
+      "problemId": "day3-anagrams",
+      "day": 3,
+      "problemName": "Are Anagrams",
+      "startTime": 1751655362706,
+      "endTime": 1751655362707,
+      "duration": 1,
+      "passed": false,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.707Z"
+    },
+    {
+      "problemId": "day3-count-vowels",
+      "day": 3,
+      "problemName": "Count Vowels",
+      "startTime": 1751655362808,
+      "endTime": 1751655362808,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:56:02.808Z"
+    },
+    {
+      "problemId": "day3-char-frequency",
+      "day": 3,
+      "problemName": "Character Frequency Counter",
+      "startTime": 1751655475639,
+      "endTime": 1751655475639,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.639Z"
+    },
+    {
+      "problemId": "day3-anagrams",
+      "day": 3,
+      "problemName": "Are Anagrams",
+      "startTime": 1751655475741,
+      "endTime": 1751655475742,
+      "duration": 1,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.742Z"
+    },
+    {
+      "problemId": "day3-count-vowels",
+      "day": 3,
+      "problemName": "Count Vowels",
+      "startTime": 1751655475843,
+      "endTime": 1751655475843,
+      "duration": 0,
+      "passed": true,
+      "attempts": 1,
+      "timestamp": "2025-07-04T18:57:55.843Z"
+    }
+  ],
+  "dayStats": [
+    {
+      "day": 1,
+      "totalProblems": 4,
+      "solvedProblems": 4,
+      "averageTime": 0.75,
+      "successRate": 1,
+      "totalTime": 3
+    },
+    {
+      "day": 2,
+      "totalProblems": 4,
+      "solvedProblems": 4,
+      "averageTime": 0.5,
+      "successRate": 1,
+      "totalTime": 2
+    },
+    {
+      "day": 3,
+      "totalProblems": 7,
+      "solvedProblems": 6,
+      "averageTime": 0.5714285714285714,
+      "successRate": 0.8571428571428571,
+      "totalTime": 4
+    }
+  ],
+  "goals": {
+    "targetTimePerProblem": 300000,
+    "targetSuccessRate": 0.8,
+    "dailyProblemGoal": 3
+  },
+  "overallStats": {
+    "totalProblems": 15,
+    "totalSolved": 14,
+    "averageTime": 0.6,
+    "bestTime": 0,
+    "worstTime": 1,
+    "improvementTrend": 0.19999999999999996
+  }
+}

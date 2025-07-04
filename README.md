@@ -3,6 +3,46 @@
 Welcome to my 15-day TypeScript-based Competitive Programming Practice repo.  
 Each day contains 2–4 core problems, solved in both `.ts` and `.js` for learning and compatibility.
 
+## 🏆 NEW: Performance Tracking System
+
+This repository now includes a comprehensive performance tracking system to help you become a competitive programmer!
+
+### 🎯 Features:
+- ⏱️ **Automatic timing** for all problem-solving sessions
+- 📊 **Success rate tracking** and improvement trends
+- 🏃 **Goal setting** for time, accuracy, and daily practice
+- 📈 **Progress visualization** and detailed analytics
+- 🧠 **AI insights** for personalized improvement recommendations
+- 📅 **Daily progress breakdown** by topic
+
+### 🚀 Quick Start:
+```bash
+# Run the performance tracker
+node performance-cli.js
+
+# Quick demo (3 sample problems)
+quickStart()
+
+# View your dashboard
+dashboard()
+
+# Practice all problems with timing
+runTests()
+
+# Test specific day
+testDay(1)  # or testDay(2), testDay(3)
+
+# Set your goals
+setGoals(5, 0.8, 4)  # 5 min/problem, 80% success, 4 problems/day
+```
+
+### 📊 What Gets Tracked:
+- Time taken for each problem
+- Success/failure rates
+- Daily progress and streaks
+- Improvement trends over time
+- Areas needing more practice
+
 ---
 
 ## 📁 Folder Structure

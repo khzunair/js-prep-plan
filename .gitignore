@@ -1,0 +1,24 @@
+# Performance tracking data (personal)
+performance-data.json
+
+# Node modules
+node_modules/
+
+# Compiled JavaScript files (generated from TypeScript)
+*.js
+!practice.sh
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
